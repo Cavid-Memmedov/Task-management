@@ -1,0 +1,36 @@
+.logo{
+    width: 40px;
+}
+
+.logoname{
+    font-size: 23px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #1763fa;
+}
+
+.logoname:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale();
+    -moz-transform: scale();
+    -ms-transform: scale();
+    -o-transform: scale();
+}
+
+.menuname{
+    font-size: 16px;
+    transition-duration: 0.5s;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.menuname:hover {
+    color: #1763fa;
+    cursor: pointer;
+    background-color: #e9ecef;
+}
+
+aside{
+    height: calc(100vh - 42px);
+}
